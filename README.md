@@ -48,7 +48,7 @@ POSTGRES_HOST=db
 POSTGRES_PORT=5432
 
 # Alchemy API Key
-ALCHEMY_API_KEY=GrV1Sfqa6nOfzT9eqzsGR0qtt0-_CFVD
+ALCHEMY_API_KEY=your_API_key
 
 # Telegram Bot Configuration
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
