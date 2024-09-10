@@ -39,8 +39,6 @@ Create a `.env` file in the root directory of the project with the following var
 ### .env
 
 ```env
-# Web3 Provider URL
-WEB3_WS_PROVIDER_URL=wss://mainnet.infura.io/ws/v3/YOUR_INFURA_PROJECT_ID
 
 # PostgreSQL Database Configuration
 POSTGRES_USER=postgres
