@@ -71,7 +71,7 @@ const trackDeposits = async () => {
 
               // Extract deposit details
               const blockTimestamp = block.timestamp;
-              const fee = web3.utils.fromWei(((txReceipt.gasUsed * receiptLog.gasPrice) / numDeposits).toString(), 'ether'); // Calculate fee
+              const fee = ((txReceipt.gasUsed * receiptLog.gasPrice) / numDeposits).toString() // Calculate fee
               const pubkey = receiptLog.topics[1]; // Placeholder for decoding pubkey
 
               const deposit = {
